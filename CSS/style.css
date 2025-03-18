@@ -107,7 +107,7 @@ p{
     height: 220px;
     border-radius:100%;
     object-fit: cover;
-    box-shadow: 0px 0px 20px 2px;
+    box-shadow: 0px 0px 20px 10px rgba(143, 129, 9, 0.5);
 }
 #members{
     width:30%;
@@ -118,7 +118,7 @@ p{
     gap:20px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
-    background-color: rgba(211, 204, 204, 0.5);
+    background-color: rgb(252, 251, 251);
     padding: 2%;
     border-radius: 10%;
     transition: 1s;
@@ -133,6 +133,26 @@ p{
     gap:70px;
     padding: 4%;
     background-color: #666262;
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    width: 30%;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: #1a1f2e;
+}
+#aboutText{
+
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    width: 70%;
+    color: #1a1f2e;
 }
 @media(max-width: 768px){
     .menu-toggle{
