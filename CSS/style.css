@@ -378,6 +378,7 @@ i:hover{
     #slogan {
         position: relative;
         left: 27%;
+        top:35%;
         text-align: center;
         width: 50%;
         font-size: 25px;
@@ -385,5 +386,162 @@ i:hover{
 
     #hero {
         height: 500px;
+    }
+    
+    #info {
+        position: absolute;
+        top:55%;
+        left:5%;
+        min-height: auto;
+        
+    } 
+    #cardList {
+        display: flex;
+        width: 95%;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+    .infoCards {
+        backdrop-filter: blur(10px);
+        text-align: start;
+        padding: 5%;
+        background-color: rgb(102, 98, 98, 0.5);
+        color: #fff;
+        font-weight: bold;
+        font-size: 6px;
+        box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.7);
+    }
+    #teamTitleDiv{
+        width:30%;
+        padding:0;
+        z-index: 10;
+    }
+    #teamTitle{
+        width:100%;
+        z-index: 10;
+        color:#fff;
+    }
+    .profile {
+        z-index: 10;
+        width: 70px;
+        height: 70px;
+        border-radius: 100%;
+        object-fit: cover;
+        box-shadow: 0px 0px 20px 10px rgba(143, 129, 9, 0.5);
+    }
+    
+    #members {
+        z-index: 10;
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 10px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 10px;
+        background-color: rgb(252, 251, 251);
+        padding: 2%;
+        border-radius: 10%;
+        transition: 1s;
+    }
+    
+    #members:hover {
+        transform: scale(1.04);
+    }
+    
+    #teamCards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        padding: 4%;
+    }
+    #gridCases {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 3%;
+        width: fit-content;
+        margin: 0 auto;
+    }
+    
+    .caseIcon {
+        width: 15%;
+    }
+    
+    .caseCards {
+        border-radius: 10px;
+        width: 100%;
+        max-width: 480px;
+        padding: 2%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        background-color: #fff;
+    }
+    
+    .caseText {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 10px;
+        padding: 2%;
+        width: 80%;
+    }
+    h2 {
+        width: 50%;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 30px;
+        color: #1a1f2e;
+    }
+    #aboutText {
+    
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 12px;
+        width: 70%;
+        color: #1a1f2e;
+    }
+    #mapDiv{
+        width:300px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:10px;
+    }
+    #dados{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        color:#fff;
+    }
+    #map{
+        width: 30%;
+        height: 80px;
+    }
+    #contactTitle{
+        color:#fff;
+        width:50%;
+        font-size: 20px;
+    }
+    #whatsImg{
+        z-index:110;
+        left:81%;
+        top:91%;
+        position: fixed;
+        width:17%;
+    }
+    #btnFale{
+        padding:2%;
+        text-decoration: none;
+        color:#28db10;
+        border:solid;
+        border-radius:20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 17px;
+        transition: 0.5s;
     }
 }
