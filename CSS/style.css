@@ -395,11 +395,12 @@ i:hover{
 
     #slogan {
         position: relative;
-        left: 5%;
+        left: 6%;
         top:35%;
         text-align: center;
-        width: 85%;
+        width: 83%;
         font-size: 25px;
+        border:solid;
     }
 
     #hero {
